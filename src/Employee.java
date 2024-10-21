@@ -1,7 +1,11 @@
-public class Employee {
+public class Employee implements sortable {
     public String name;
     public float salary;
     public String hireDate;
+
+    public void sort(){
+        //implenating sort
+    }
 
 
     public Employee(){
